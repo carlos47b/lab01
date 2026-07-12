@@ -11,7 +11,7 @@ class Program
         Console.WriteLine("        REGISTRO DEL ESTUDIANTE");
         Console.WriteLine("==========================================");
       
-
+        //ss
         Console.Write("Nombre completo: ");
         string nombre = Console.ReadLine()!;
 
