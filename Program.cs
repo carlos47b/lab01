@@ -10,9 +10,7 @@ class Program
         Console.WriteLine("==========================================");
         Console.WriteLine("        REGISTRO DEL ESTUDIANTE");
         Console.WriteLine("==========================================");
-        // Captura y validación de datos del estudiante
-
-
+      
 
         Console.Write("Nombre completo: ");
         string nombre = Console.ReadLine()!;
