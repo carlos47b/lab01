@@ -10,10 +10,13 @@ class Program
         Console.WriteLine("==========================================");
         Console.WriteLine("        REGISTRO DEL ESTUDIANTE");
         Console.WriteLine("==========================================");
-      
-     
+
         Console.Write("Nombre completo: ");
         string nombre = Console.ReadLine()!;
+
+        Console.WriteLine();
+        Console.WriteLine("Bienvenido(a), " + nombre);
+        Console.WriteLine();
 
         Console.Write("Edad: ");
         int edad = Convert.ToInt32(Console.ReadLine());
@@ -40,39 +43,11 @@ class Program
 
         Console.WriteLine();
         Console.WriteLine("==========================================");
-        Console.WriteLine("¡Bienvenido(a), " + nombre + "!");
+        Console.WriteLine("        REGISTRO DEL ESTUDIANTE");
         Console.WriteLine("==========================================");
-
         Console.WriteLine();
-        Console.WriteLine("Edad actual: " + edad + " años");
-        Console.WriteLine("Edad dentro de 5 años: " + edadFutura + " años");
-
+        Console.WriteLine("Bienvenido(a), " + nombre);
         Console.WriteLine();
-        Console.WriteLine("Carrera: " + carrera);
-        Console.WriteLine("Carné: " + carne);
-        Console.WriteLine("Correo: " + correo);
-        Console.WriteLine("Teléfono: " + telefono);
-
-        Console.WriteLine();
-        Console.WriteLine("Promedio actual: " + promedio.ToString("F2"));
-        Console.WriteLine("Materias inscritas: " + materias);
-        Console.WriteLine("Máximo permitido: " + MAX_MATERIAS);
-
-        Console.WriteLine();
-
-        if (materias < MAX_MATERIAS)
-        {
-            Console.WriteLine("Puede inscribir más materias: Sí");
-        }
-        else
-        {
-            Console.WriteLine("Puede inscribir más materias: No");
-        }
-
-        Console.WriteLine();
-        Console.WriteLine("==========================================");
-        Console.WriteLine("RESUMEN DEL ESTUDIANTE");
-        Console.WriteLine("==========================================");
 
         Console.WriteLine("Nombre: " + nombre);
         Console.WriteLine("Edad: " + edad + " años");
